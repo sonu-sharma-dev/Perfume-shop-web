@@ -1,0 +1,226 @@
+<html>
+    <head>
+    <title>project</title>
+    <style>
+         *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    h1
+    {
+    text-align:center;}
+    #i1
+{
+  display: table;
+  display: flex;
+  margin-left:150px;
+  margin-top: 100px;
+}
+#img1
+{
+    float: left;
+  width:100%;
+  padding:15px;
+}
+#img1 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img1:hover{
+    cursor: pointer;
+}
+#img1:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i2
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left:50px;
+  margin-top:100px;
+}
+#img2
+{
+    float: left;
+  width: 100%;
+  padding:15px;
+}
+#img2 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img2:hover div{
+    width: 100px;
+    padding: 10 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i3
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img3
+{ 
+float: left;
+  width: 50%;
+  padding: 15px;
+}
+#img3 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img3:hover{
+    cursor: pointer;
+}
+#img3:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}nav .search{
+    border-bottom: 1px solid black;
+}
+nav .search input{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+nav .logo{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    font-family: Microsoft Himalaya;
+}
+nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+nav .list li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.bi-house, .bi-bag, .bi-person-circle{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav i:hover{
+
+    color: rgb(255, 48, 48);
+}
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <nav class="navbar">
+        <a href="#" class="logo">Niche House</a><br>
+        <ul class="list">
+            <li><a href="Main Project.html"><i class="bi bi-house"></i></a></li>
+            <li><a href="checkout form.html"><i class="bi bi-bag"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            <div class="search">
+                <input type="text" placeholder="Search"> <i class="bi bi-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <body>
+        <h1>Niche House</h1>
+        <div id="i1">
+        <div id="img1">
+        <img width="250" height="250" src="https://perfumebaazaar.com/wp-content/uploads/2021/12/gabrielle-chanel-eau-de-parfum-spray-3-4fl-oz-packshot-default-120525-8848377184286.jpg" alt="">
+        <div>price <br>Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="data:image/jpeg;base64,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" alt="">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="http://cdn.shopify.com/s/files/1/0568/4635/2438/products/coco_chanel_edp-min_417d6950-6a17-4eac-9a2c-675cd113c85e.jpg?v=1667862608">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="http://www.theperfumeshop.pk/wp-content/uploads/2019/06/Chance-by-Chanel-the-perfume-shop-2.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        </div>
+        <div id="i2">
+        <div id="img2">
+        <img width="250" height="250" src="https://n.nordstrommedia.com/id/sr3/7c25bc8e-839e-4f28-9266-8cddb88f0689.jpeg?h=365&w=240&dpr=2" alt="">
+        <div>Price <br>Add to Cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://e0.pxfuel.com/wallpapers/29/60/desktop-wallpaper-womens-perfume-fragrance-coco-chanel-perfume.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/16293782_fpx.tif?wid=1200&fmt=jpeg&qlt=100" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.936.jpg">
+        <div>Price <br> Add to cart </div>
+        </div>
+        </div>
+        <div id="i3">
+        <div id="img3">
+        <img width="250" height="250" src="https://find-a-fragrance.com/uploaded/perfumes/1555506759_CHANEL_BLEU-DE-CHANEL-EDP.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.38543.jpg" alt="">
+        <div>Price <br> Add to cart </div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://e0.pxfuel.com/wallpapers/986/855/desktop-wallpaper-chanel-perfume-white-background.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://i.ebayimg.com/thumbs/images/g/DhYAAOSwb6tgfR5D/s-l300.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+    </div>
+        </div> 
+    </body>
+</html>

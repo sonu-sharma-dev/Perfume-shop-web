@@ -1,0 +1,228 @@
+<html>
+    <head>
+    <title>project</title>
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    h1
+    {
+    text-align:center;}
+#i1
+{
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img1
+{
+    float: left;
+  width:100%;
+  padding:55px;
+}
+#img1 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img1:hover{
+    cursor: pointer;
+}
+#img1:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i2
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img2
+{
+    float: left;
+  width: 100%;
+  padding:55px;
+}
+#img2 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img2:hover div{
+    width: 100px;
+    padding: 10 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i3
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img3
+{ 
+float: left;
+  width: 50%;
+  padding:55px;
+}
+#img3 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img3:hover{
+    cursor: pointer;
+}
+#img3:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+nav .search{
+    border-bottom: 1px solid black;
+}
+nav .search input{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+nav .logo{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    font-family: Microsoft Himalaya;
+}
+nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+nav .list li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.bi-house, .bi-bag, .bi-person-circle{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav i:hover{
+
+    color: rgb(255, 48, 48);
+}
+    </style>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <nav class="navbar">
+        <a href="#" class="logo">Niche House</a><br>
+        <ul class="list">
+            <li><a href="Main Project.html"><i class="bi bi-house"></i></a></li>
+            <li><a href="checkout form.html"><i class="bi bi-bag"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            <div class="search">
+                <input type="text" placeholder="Search"> <i class="bi bi-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <body>
+        <h1>Niche House</h1>
+        <div id="i1">
+        <div id="img1">
+        <img width="250" height="250" src="data:image/jpeg;base64,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" alt="">
+        <div>price <br>Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://theperfumesgallery.com/wp-content/uploads/2020/11/Club-De-Nuit-Men-ARM-02-500x500-1.jpg" alt="">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://cdn.shopify.com/s/files/1/0257/2425/6334/products/armaf.jpg?v=1620822894">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="http://www.theperfumeshop.pk/wp-content/uploads/2020/07/Radical-blue-by-armaf-the-perfume-shop.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        </div>
+        <div id="i2">
+        <div id="img2">
+        <img width="250" height="250" src="http://www.theperfumeshop.pk/wp-content/uploads/2020/12/Club-de-nuit-sillage-by-armaf-the-perfume-shop.jpg" alt="">
+        <div>Price <br>Add to Cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://img.fragrancex.com/images/blog/Club-De-Nuit-Cologne-By-Armaf-.jpeg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.27686.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://ae01.alicdn.com/kf/HLB1YRWqafLsK1Rjy0Fbxh4SEXXaf/HUNTER-FOR-MEN-BY-ARMAF-By-ARMAF-LUXE-STERLING-PARFUMS-For-MEN.jpeg_.webp">
+        <div>Price <br> Add to cart </div>
+        </div>
+        </div>
+        <div id="i3">
+        <div id="img3">
+        <img width="250" height="250" src="http://fragrancegallery.pk/wp-content/uploads/2022/08/ARMAF-DELA-MARQUE-GOLD-1.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.27701.jpg" alt="">
+        <div>Price <br> Add to cart </div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://cdn.sheeel.com/media/catalog/product/cache/1/image/800x800/4d3ec06b4f2a04ed8140a36497b86d9b/f/r/fragrance-notes.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://img.fragrancex.com/images/blog/Armaf-Ventana-Cologne-By-Armaf-.jpeg" alt="">
+        <div>Price <br>Add to cart</div>
+    </div>
+        </div> 
+    </body>
+</html>

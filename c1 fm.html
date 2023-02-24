@@ -1,0 +1,227 @@
+<html>
+    <head>
+    <title>project</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    h1
+    {
+    text-align:center;}
+    #i1
+{
+  display: table;
+  display: flex;
+  margin-left:150px;
+  margin-top: 100px;
+}
+#img1
+{
+    float: left;
+  width:100%;
+  padding:15px;
+}
+#img1 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img1:hover{
+    cursor: pointer;
+}
+#img1:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i2
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left:50px;
+  margin-top:100px;
+}
+#img2
+{
+    float: left;
+  width: 100%;
+  padding:15px;
+}
+#img2 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img2:hover div{
+    width: 100px;
+    padding: 10 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i3
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img3
+{ 
+float: left;
+  width: 50%;
+  padding: 15px;
+}
+#img3 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img3:hover{
+    cursor: pointer;
+}
+#img3:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+nav .search{
+    border-bottom: 1px solid black;
+}
+nav .search input{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+nav .logo{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    font-family: Microsoft Himalaya;
+}
+nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+nav .list li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.bi-house, .bi-bag, .bi-person-circle{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav i:hover{
+
+    color: rgb(255, 48, 48);
+}
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <nav class="navbar">
+        <a href="#" class="logo">Niche House</a><br>
+        <ul class="list">
+            <li><a href="Main Project.html"><i class="bi bi-house"></i></a></li>
+            <li><a href="checkout form.html"><i class="bi bi-bag"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            <div class="search">
+                <input type="text" placeholder="Search"> <i class="bi bi-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <body>
+        <h1>Niche House</h1>
+        <div id="i1">
+        <div id="img1">
+        <img width="250" height="250" src="https://n.nordstrommedia.com/id/sr3/2807998c-08e9-465f-a83b-c21886785703.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196" alt="">
+        <div>price <br>Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.38497.jpg" alt="">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="data:image/jpeg;base64,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">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://n.nordstrommedia.com/id/sr3/06283019-58b6-44d5-bf7e-d01754b7f64b.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        </div>
+        <div id="i2">
+        <div id="img2">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqevLw-LM2IOts_xzLNVGNpoE9Ks6TdmXjTmfjo81K8F7g99QqLhBnRWdl9dftzpDIRh4&usqp=CAU" alt="">
+        <div>Price <br>Add to Cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zM8x92-Nwo0hY5IrSBghYbtRTyaOSmHU4-ucJ8LkfOnXa2KIhgs6RBaDPl8fm9FXqQI&usqp=CAU" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://cdn.shopify.com/s/files/1/0457/8767/6825/products/AVENTUSFORHER2_1024x1024.jpg?v=1659552771" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="http://cdn.shopify.com/s/files/1/0457/8767/6825/products/LOVEINWHITE1_1200x1200.jpg?v=1601503486">
+        <div>Price <br> Add to cart </div>
+        </div>
+        </div>
+        <div id="i3">
+        <div id="img3">
+        <img width="250" height="250" src="https://perfumesociety.org/wp-content/uploads/2014/04/CREED_AVENTUS_FOR_HER-553x1024.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://cdn.shopify.com/s/files/1/0591/0645/products/CreedSilverMountainWater100mlEDP.jpg?v=1668669490" alt="">
+        <div>Price <br> Add to cart </div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://cdn.shopify.com/s/files/1/0402/0210/9079/products/iris-tubereuse-shadow_600x.jpg?v=1628135436" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://cdn11.bigcommerce.com/s-ihg3qknk2i/images/stencil/2048x2048/products/393/2741/Spring_Flower_Perfume__95333_669__51962.1659431760.jpg?c=1" alt="">
+        <div>Price <br>Add to cart</div>
+    </div>
+        </div> 
+    </body>
+</html>

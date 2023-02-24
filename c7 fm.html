@@ -1,0 +1,227 @@
+<html>
+    <head>
+    <title>project</title>
+    <style>
+         *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    h1
+    {
+    text-align:center;}
+    #i1
+{
+  display: table;
+  display: flex;
+  margin-left:150px;
+  margin-top: 100px;
+}
+#img1
+{
+    float: left;
+  width:100%;
+  padding:15px;
+}
+#img1 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img1:hover{
+    cursor: pointer;
+}
+#img1:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i2
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left:50px;
+  margin-top:100px;
+}
+#img2
+{
+    float: left;
+  width: 100%;
+  padding:15px;
+}
+#img2 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img2:hover div{
+    width: 100px;
+    padding: 10 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i3
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img3
+{ 
+float: left;
+  width: 50%;
+  padding: 15px;
+}
+#img3 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img3:hover{
+    cursor: pointer;
+}
+#img3:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+nav .search{
+    border-bottom: 1px solid black;
+}
+nav .search input{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+nav .logo{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    font-family: Microsoft Himalaya;
+}
+nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+nav .list li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.bi-house, .bi-bag, .bi-person-circle{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav i:hover{
+
+    color: rgb(255, 48, 48);
+}
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <nav class="navbar">
+        <a href="#" class="logo">Niche House</a><br>
+        <ul class="list">
+            <li><a href="Main Project.html"><i class="bi bi-house"></i></a></li>
+            <li><a href="checkout form.html"><i class="bi bi-bag"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            <div class="search">
+                <input type="text" placeholder="Search"> <i class="bi bi-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <body>
+        <h1>Niche House</h1>
+        <div id="i1">
+        <div id="img1">
+        <img width="250" height="250" src="https://lookagain.scene7.com/is/image/OttoUK/553w/la-belle-50ml-eau-de-parfum-by-jean-paul-gaultier~49K816FRSP.jpg" alt="">
+        <div>price <br>Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://m.media-amazon.com/images/I/41hYgSZTMWL.jpg" alt="">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.7800.jpg">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="http://perfumesociety.org/wp-content/uploads/2014/04/Jean-Paul-Gaultier-Les-Essences-de-Parfum-3-1.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        </div>
+        <div id="i2">
+        <div id="img2">
+        <img width="250" height="250" src="https://www.takeit2day.com/image/cache/data/french-fragrance/jean%20paul%20gaultier/jean-paul-gaultier-classique-edt-20-ml-600x800-0.jpg" alt="">
+        <div>Price <br>Add to Cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://lajolieperfumes.com/wp-content/uploads/2021/10/Jean-Paul-Gaultier-Classique-Cabaret-la-jolie-perfumes01.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://www.robertdyas.co.uk/media/catalog/product/cache/3e4af32227ffcd096e1d35f2db20bea1/2/7/271990_1.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonw2ls-JSF_uBt83EuJ9n4ve0XCaNpEytaQ&usqp=CAU">
+        <div>Price <br> Add to cart </div>
+        </div>
+        </div>
+        <div id="i3">
+        <div id="img3">
+        <img width="250" height="250" src="https://www.savers.co.uk/medias/sys_master/front-zoom/front-zoom/h61/h9a/9068215369758/JEAN-PAUL-GAULTIER-CLASSIQUE-EDP-50ML-460150.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://i.pinimg.com/originals/fe/8b/56/fe8b560bf1af07b957033a5ae8c67c04.jpg" alt="">
+        <div>Price <br> Add to cart </div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/107854/jean-paul-gaultier-classlque-in-love-for-women-100-ml_1_display_1477378647_58672edf.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://cdn.shopify.com/s/files/1/2129/6897/articles/4f419fb1363ca937da23f92303d16681.jpg?v=1640299114" alt="">
+        <div>Price <br>Add to cart</div>
+    </div>
+        </div> 
+    </body>
+</html>

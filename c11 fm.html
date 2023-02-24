@@ -1,0 +1,227 @@
+<html>
+    <head>
+    <title>project</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+   h1
+    {
+    text-align:center;}
+    #i1
+{
+  display: table;
+  display: flex;
+  margin-left:150px;
+  margin-top: 100px;
+}
+#img1
+{
+    float: left;
+  width:100%;
+  padding:15px;
+}
+#img1 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img1:hover{
+    cursor: pointer;
+}
+#img1:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i2
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left:50px;
+  margin-top:100px;
+}
+#img2
+{
+    float: left;
+  width: 100%;
+  padding:15px;
+}
+#img2 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img2:hover div{
+    width: 100px;
+    padding: 10 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i3
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img3
+{ 
+float: left;
+  width: 50%;
+  padding: 15px;
+}
+#img3 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img3:hover{
+    cursor: pointer;
+}
+#img3:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+nav .search{
+    border-bottom: 1px solid black;
+}
+nav .search input{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+nav .logo{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    font-family: Microsoft Himalaya;
+}
+nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+nav .list li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.bi-house, .bi-bag, .bi-person-circle{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav i:hover{
+
+    color: rgb(255, 48, 48);
+}
+    </style>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <nav class="navbar">
+        <a href="#" class="logo">Niche House</a><br>
+        <ul class="list">
+            <li><a href="Main Project.html"><i class="bi bi-house"></i></a></li>
+            <li><a href="checkout form.html"><i class="bi bi-bag"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            <div class="search">
+                <input type="text" placeholder="Search"> <i class="bi bi-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <body>
+        <h1>Niche House</h1>
+        <div id="i1">
+        <div id="img1">
+        <img width="250" height="250" src="https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/0/1049016-1.jpg" alt="">
+        <div>price <br>Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="data:image/jpeg;base64,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" alt="">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://thumbs.dreamstime.com/b/calvin-klein-sheer-beauty-womens-elegant-perfume-white-background-75533719.jpg">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://proflowers.pk/wp-content/uploads/2020/04/calvin-klein-downtown-edp-90ml.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        </div>
+        <div id="i2">
+        <div id="img2">
+        <img width="250" height="250" src="https://img.perfume.com/images/products/parent/medium/66856w.jpg" alt="">
+        <div>Price <br>Add to Cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://img.perfume.com/images/products/parent/medium/104m.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://c4.wallpaperflare.com/wallpaper/570/479/809/calvin-klein-be-perfume-firm-brand-wallpaper-preview.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://img.perfume.com/images/products/parent/medium/1002w.jpg">
+        <div>Price <br> Add to cart </div>
+        </div>
+        </div>
+        <div id="i3">
+        <div id="img3">
+        <img width="250" height="250" src="https://i.ebayimg.com/images/g/-J8AAOSwnGlf0KI5/s-l1600.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://resources.commerceup.io/?key=https%3A%2F%2Fprod-admin-images.s3.amazonaws.com%2FPeZho1KcxJ6lLWV8SlDT%2Fproduct%2FCalvin%2520Klein%2520One%2520Shock%2520Her%2520For%2520Eau%2520De%2520Toilette%2520200ML%2520btl.jpg&width=350&resourceKey=PeZho1KcxJ6lLWV8SlDT&background=no" alt="">
+        <div>Price <br> Add to cart </div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://i.ebayimg.com/images/g/7osAAOSwqtJf0KMM/s-l1600.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://www.theperfumeshop.pk/wp-content/uploads/2019/08/Calvin-Klein-Beauty-The-Perfume-Shop-2-330x396.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+    </div>
+        </div> 
+    </body>
+</html>

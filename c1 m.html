@@ -1,0 +1,231 @@
+<html>
+    <head>
+    <title>project</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    h1
+    {
+    text-align:center;}
+#i1
+{
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img1
+{
+    float: left;
+  width:100%;
+  padding:15px;
+}
+#img1 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img1:hover{
+    cursor: pointer;
+}
+#img1:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i2
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+#img2
+{
+    float: left;
+  width: 100%;
+  padding:15px;
+}
+#img2 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img2:hover div{
+    width: 100px;
+    padding: 10 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+#i3
+{
+    clear: both;
+  display: table;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#img3
+{ 
+float: left;
+  width: 50%;
+  padding: 15px;
+}
+#img3 div{
+    position: absolute;
+    margin-bottom:7px;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    background-color: black;
+    color: aliceblue;
+    transition: visibility 0s, opacity 1s linear;
+}
+#img3:hover{
+    cursor: pointer;
+}
+#img3:hover div{
+    width: 100px;
+    padding: 10px 15px;
+    visibility: visible;
+    opacity: 0.6; 
+}
+
+
+nav .search{
+    border-bottom: 1px solid black;
+}
+nav .search input{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
+}
+nav .logo{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    font-family: Microsoft Himalaya;
+}
+nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+nav .list li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.bi-house, .bi-bag, .bi-person-circle{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+nav i:hover{
+
+    color: rgb(255, 48, 48);
+}
+
+    </style>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
+    <nav class="navbar">
+        <a href="#" class="logo">Niche House</a><br>
+        <ul class="list">
+            <li><a href="Main Project.html"><i class="bi bi-house"></i></a></li>
+            <li><a href="checkout form.html"><i class="bi bi-bag"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            <div class="search">
+                <input type="text" placeholder="Search"> <i class="bi bi-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <body>
+        <h1>Niche House</h1>
+        <div id="i1">
+        <div id="img1">
+        <img width="250" height="250" src="data:image/jpeg;base64,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" alt="">
+        <div>price <br>Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="data:image/jpeg;base64,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" alt="">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://cdn.shopify.com/s/files/1/0402/0210/9079/products/2125042_250ml-Millesime-Aventus_2_1024x.jpg?v=1665026271">
+        <div>Price <br> Add to cart</div>
+        </div>
+        <div id="img1">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrkrp2SftgmXodWeV61xrpfazCbqXGcpC1Q&usqp=CAU" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        </div>
+        <div id="i2">
+        <div id="img2">
+        <img width="250" height="250" src="https://img.fragrancex.com/images/blog/Erolfa-Cologne-By-Creed-for-Men.jpeg" alt="">
+        <div>Price <br>Add to Cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkyepJX2eOPRxfi5ZBThpDqrRaAFyYQYT1A&usqp=CAU" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://belodore.rs/media/amasty/webp/catalog/product/cache/9bee014be7306a29d7e01a6d8cdddd51/C/R/CR33900-1-Creed_Original_Vetiver_100ml_EDP_1_2_jpg.webp" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img2">
+        <img width="250" height="250" src="https://static-01.daraz.pk/p/7ed592cad710de55dc516e8592288c2d.jpg">
+        <div>Price <br> Add to cart </div>
+        </div>
+        </div>
+        <div id="i3">
+        <div id="img3">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGAYsueifXWFZujgxq9uvQxK1LOG97k35iCA&usqp=CAU" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0TYS_9Jj-vqOZZtCJb8jFrTR3HZz01Ev4IsEgQnVgFP8BLES-cG6z0vi40U7JdSnDGMI&usqp=CAU" alt="">
+        <div>Price <br> Add to cart </div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://fimgs.net/mdimg/perfume/375x500.13391.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+        </div>
+        <div id="img3">
+        <img width="250" height="250" src="https://static3.sabinacdn.com/5424-thickbox_default/himalaya.jpg" alt="">
+        <div>Price <br>Add to cart</div>
+    </div>
+        </div> 
+    </body>
+</html>
